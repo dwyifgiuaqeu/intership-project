@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("bk.jpg");
+    overflow-y: scroll;
+    height: 2200px;
+}
+header{
+    height: 40px;
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid rgb(247, 0, 255);
+}
+
+.port{
+    font-size: 1.5rem;
+    margin-right: 400px;
+}
+.about{
+    font-size: 1.2rem;
+}
+
+
+main{
+    min-height: 600px;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imp{
+    color: beige;
+    height: 500px;
+    width: 400px;
+
+   margin-left: 35px;
+    margin-top: 130px;
+    color:white;
+   
+}
+h1{
+    font-size: 2.2rem;
+}
+h3{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: chocolate;
+    font-size: 1.85rem;
+}
+p{
+    font-size: 1.5rem;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    color: wheat;
+    background-color: rgb(183, 43, 226);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+   
+
+}
+
+
+.photo{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+background: url("photo.jpeg");
+background-size: cover;
+border: 1px solid orangered ;
+margin-right: 100px;
+
+}
+
+.skill{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: beige;
+}
+
+
+.about{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: beige;
+}
+.x{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.skills{
+    height: 50px;
+    width: 50px;
+    border: 2px solid peru;
+}
+
+
+.skillsection{
+   margin-left: 550px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(205, 24, 30);
+    border-radius: 10px;
+   margin-top: 5px;
+}
+
+
+
+.btn{
+    height: 50px;
+    width: 150px;
+    color: wheat;
+    background-color: rgba(0, 13, 255, 0.483);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 80px;
+}
+
+.project{
+    margin-top: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: beige;
+}
+
+.projectdetail{
+    margin-left: 550px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(205, 24, 30);
+    border-radius: 10px;
+   margin-top: 5px;
+   color: antiquewhite;
+   font-size: 1.8rem;
+    font-weight: bolder;
+
+}
+
+.clone{
+    height: 150px;
+    width: 290px;
+    background: url("amazon.jpeg");
+    background-size: cover;
+    margin-top: 5px;
+    margin-left: 5px;
+
+
+}
+.projectname{
+    height: 20px;
+    color: beige;
+}
+.projectimp{
+    font-size: 0.75rem;
+    color: blanchedalmond;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
+
+.Contacts{
+    margin-top: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(245, 239, 220)
+}
+
+.contactimp{
+    margin-top: 1px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: rgb(245, 239, 220)
+   
+}
+
+.contactdetail{
+    margin-left: 470px;
+    height: 350px;
+    width: 500px;
+    border: 1px solid rgb(205, 24, 30);
+    border-radius: 10px;
+   margin-top: 5px;
+   color: antiquewhite;
+   font-size: 1.8rem;
+    font-weight: bolder;
+    background-color: rgba(0, 106, 255, 0.239);
+}
+
+.email{
+    height: 20px; 
+   
+}
+.h3{
+    height: 10px;
+    color: beige;
+    margin-left: 10px;
+}
+
+
+#seach{
+    margin-top: 20px;
+    height: 50px;
+    width: 470px;
+    margin-left: 10px;
+    border: 1px solid rgb(205, 24, 30);
+    background-color: rgba(0, 106, 255, 0.239);
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+}
+#send{
+    margin-top: 20px;
+    height: 50px;
+    width: 470px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(137, 43, 226);
+    text-align: top;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+
+
+.name{
+    height: 50px;
+    color:whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.icons{
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    font-weight: 2rem;
+    background-color: rgba(0, 106, 255, 0.239);
+    margin-left: 500px;
+    margin-right:500px;
+}
+
+.icon{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 2rem;
+    background-size:cover;
+}
+
+
+.copyright{
+    height: 70px;
+    color: antiquewhite;
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+}
